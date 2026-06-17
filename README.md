@@ -4,70 +4,145 @@
 
 A curated set of reference architectures for designing **enterprise AI Factories**.
 
-This repository provides structured architecture patterns for building AI systems that move beyond experimentation into **scalable, governed, and outcome-driven execution**.
-
 ---
 
 ## Overview
 
-Enterprise AI does not fail because of models.
+Enterprise AI is no longer about selecting models.
 
-It fails because of:
-- poor infrastructure decisions
-- lack of system design
-- missing orchestration
-- weak integration with enterprise workflows
-- unclear cost and ROI alignment
+It is about designing systems that convert infrastructure, intelligence, and workflows into real business execution.
 
-This repository addresses that gap by providing **reference architectures** that connect:
+Most organizations struggle with:
 
-- infrastructure  
-- agentic AI systems  
-- business execution  
+- choosing the right infrastructure strategy  
+- designing scalable AI systems  
+- orchestrating models and workflows  
+- integrating AI into enterprise platforms  
+- aligning architecture with cost and ROI  
 
-into a unified operating model.
+This repository provides **structured, reusable architecture patterns**.
 
 ---
 
 ## What is an AI Factory?
 
-An **AI Factory** is an enterprise system that converts compute, models, and data into scalable business execution.
+An **AI Factory** is an enterprise system that transforms:
 
-It is built across three integrated layers:
+- compute  
+- models  
+- data  
 
-### 1. Infrastructure
-- GPU compute and acceleration
-- cloud / bare metal / hybrid deployment
-- networking and storage
-- observability and reliability
+into **repeatable, scalable business outcomes**.
+
+It operates across three layers:
+
+### Infrastructure Layer
+- GPU / accelerated compute  
+- cloud / hybrid / bare metal  
+- networking and storage  
+- observability  
+
+### Agentic AI Platform
+- orchestration and control flows  
+- model routing  
+- tool integrations  
+- multi-agent systems  
+- governance  
+
+### Business Execution
+- ERP / CRM / HCM workflows  
+- decision automation  
+- operational processes  
+- measurable outcomes  
 
 ---
 
-### 2. Agentic AI Platform
-- orchestration and control flows
-- model and tool integration
-- multi-agent coordination
-- policy-aware execution
-- runtime governance
+## AI Factory Architecture Overview
 
----
-
-### 3. Business Execution
-- enterprise workflows (ERP, CRM, HCM)
-- decision automation
-- operational processes
-- measurable outcomes
-
----
-
-**Enterprise AI delivers value only when all three layers are aligned.**
+                ┌───────────────────────────────┐
+                │      Business Execution       │
+                │ • Workflows / Decisions       │
+                └───────────────▲───────────────┘
+                                │
+                ┌───────────────┼───────────────┐
+                │     Agentic AI Platform       │
+                │ • Orchestration               │
+                │ • Multi-Agent Systems         │
+                │ • Governance                  │
+                └───────────────▲───────────────┘
+                                │
+                ┌───────────────┼───────────────┐
+                │    Infrastructure Layer       │
+                │ • GPU / Cloud / Hybrid        │
+                │ • Storage / Networking        │
+                └───────────────────────────────┘
 
 ---
 
 ## Repository Structure
 
-```text
-architectures/   -> reference architecture patterns
-diagrams/        -> system and architecture visuals
-templates/       -> reusable design templates
-examples/        -> sample decision frameworks and outputs
+- architectures/   → architecture patterns  
+- diagrams/        → visuals  
+- templates/       → templates  
+- examples/        → examples  
+
+---
+
+## Reference Architectures
+
+- RAG Platform  
+- Agentic Workflow Platform  
+- AI SDLC Platform  
+- Enterprise Knowledge Factory  
+
+---
+
+## How to Use This Repository
+
+- design enterprise AI systems  
+- run architecture reviews  
+- evaluate infrastructure decisions  
+- align AI systems with business outcomes  
+
+---
+
+## Typical Questions Answered
+
+- Which workloads need GPU?  
+- Cloud vs hybrid design?  
+- How to structure agentic systems?  
+- How to integrate with enterprise platforms?  
+
+---
+
+## Design Principles
+
+- systems over models  
+- governed execution  
+- deterministic foundations  
+- business alignment  
+
+---
+
+## Related Work
+
+AI Factory Design Platform  
+https://aifactorydesignplatform.com  
+
+GitHub  
+https://github.com/phaniburra-ai/ai-factory-design-platform  
+
+---
+
+## Perspective
+
+Enterprise AI is moving from experimentation to execution.
+
+The winners will build **AI Factories**, not isolated solutions.
+
+---
+
+## Author
+
+Phani Burra  
+AI Factory Architect
