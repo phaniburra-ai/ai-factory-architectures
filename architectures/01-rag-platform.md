@@ -192,4 +192,4 @@ A mature implementation of this pattern should produce:
 A strong RAG platform is not just a search layer with an LLM on top.
 
 It is a governed knowledge system where retrieval, security, orchestration, and business workflow integration work together to deliver reliable enterprise answers.
-``
+
